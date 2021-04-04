@@ -1,0 +1,28 @@
+# Site settings
+title: PaoloBattistella.dev
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://paolobattistella.dev" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+remote_theme: samarsault/plainwhite-jekyll
+
+plainwhite:
+  name: Paolo Battistella
+  tagline: Web Artisan
+
+  html_lang: "en"
+  date_format: "%-d %b %Y"
+  dark_mode: true
+
+  social_links:
+    github: paolobattistella
+    linkedIn: in/paolobattistella
+
+  portfolio_image: "assets/img/me.jpeg"
+
+  sitemap: true
+  analytics_id: UA-1464007-3
+
+show_excerpts: true # set to true to show excerpts on the homepage
+markdown: kramdown # markdown processor
+google_analytics: UA-1464007-3
