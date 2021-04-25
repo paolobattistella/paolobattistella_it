@@ -1,10 +1,10 @@
 # Site settings
-title: PaoloBattistella.dev
+title: PaoloBattistella.it | Web Artisan
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://paolobattistella.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://paolobattistella.it" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-remote_theme: samarsault/plainwhite-jekyll
+theme: plainwhite
 
 plainwhite:
   name: Paolo Battistella
@@ -23,6 +23,5 @@ plainwhite:
   sitemap: true
   analytics_id: UA-1464007-3
 
-show_excerpts: true # set to true to show excerpts on the homepage
-markdown: kramdown # markdown processor
-google_analytics: UA-1464007-3
+plugins:
+  - jekyll-seo-tag

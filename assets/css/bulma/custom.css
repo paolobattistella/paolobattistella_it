@@ -1,0 +1,12 @@
+.container {}
+.box {
+    background:#f5f5f5;
+}
+.has-ribbon .ribbon.is-rounded{
+    border-top-left-radius: $radius-rounded;
+    border-bottom-left-radius: $radius-rounded;
+}
+.has-ribbon-left .ribbon.is-rounded{
+    border-top-right-radius: $radius-rounded;
+    border-bottom-right-radius: $radius-rounded;
+}

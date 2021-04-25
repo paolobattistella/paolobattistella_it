@@ -1,0 +1,26 @@
+<title>{{ page.title | default: site.title }}</title>
+{% seo %}
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{{ "/assets/css/bulma/css/bulma.css" | relative_url }}" media="all" />
+<link rel="stylesheet" type="text/css" href="{{ "/assets/css/bulma/custom.css" | relative_url }}" media="all" />
+<link rel="stylesheet" type="text/css" href="{{ "/assets/css/jquery.cookiebar.css" | relative_url }}" media="all" />
+<script type="text/javascript" src="{{ "/assets/js/jquery.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery.cookiebar.js" | relative_url }}"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $.cookieBar({
+            message:'Questo sito utilizza i cookie. Se per te va bene, continua a navigare nel sito.',
+            acceptButton: true,
+            acceptText: 'ho capito',
+            policyButton: true,
+            policyURL: 'cookie.html',
+            policyText: 'maggiori informazioni',
+            fixed: true,
+            bottom: true,
+            forceShow: true,
+            zindex:1000
+        });
+    });
+</script>
