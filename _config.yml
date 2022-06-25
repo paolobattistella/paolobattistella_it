@@ -21,7 +21,6 @@ plainwhite:
   portfolio_image: "assets/img/me.jpeg"
 
   sitemap: true
-  analytics_id: UA-1464007-3
 
 plugins:
   - jekyll-seo-tag
