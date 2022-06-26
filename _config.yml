@@ -4,6 +4,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://paolobattistella.it" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
+remote_theme: samarsault/plainwhite-jekyll
 theme: plainwhite
 
 plainwhite:
@@ -24,3 +25,4 @@ plainwhite:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-remote-theme
